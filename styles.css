@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    color: #333;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+    appearance: none;
+    padding: 8px;
+    border: 2px solid #4caf50;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    vertical-align: middle;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #4caf50;
+    border-color: #4caf50;
+    color: #fff;
+}
+
+input[type="submit"],
+button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px; /* Increased border-radius for a softer look */
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: #008CBA;
+    color: #fff;
+    font-size: 16px; /* Adjust font size as needed */
+}

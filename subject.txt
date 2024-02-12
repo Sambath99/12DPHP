@@ -1,0 +1,14 @@
+Khmer:
+Kh Math:
+Kh Bio:
+Kh Chemistry:
+Kh Physic:
+Kh Geo:
+Kh History:
+Kh Earth:
+English:
+Math:
+Bio:
+Chemistry:
+Physic:
+Kh Value:
